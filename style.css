@@ -1,0 +1,81 @@
+style.css
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1{
+	font-size: 220%;
+	color:black;
+}
+.logo img{
+	height:5rem;
+}
+.navbar{
+	background-color:darkred;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navlist{
+	display: flex;
+	gap: 2rem;
+
+}
+.navlist li{
+	list-style: none;
+}
+.navlist a{
+	font-style: italic;
+	text-transform: uppercase;
+	color: white;
+ text-decoration: none;
+}
+.navlist aboutus.html{
+	background-color:yellow;
+}
+.main{
+	display: flex;
+}
+.main .left{
+	background-color: skyblue;
+	justify-content: center;
+	border: white;
+}
+	.main .right{
+	background-color: rosybrown;
+	justify-content:center;
+	border: black;
+	
+}
+.main .main_split{
+	width: 50%;
+	min-height: 50vh;
+	display: flex;
+
+}
+	 .right img{
+		height: 100%;
+		width: 95%;
+		padding-left: 1rem;
+		padding-right: 2;
+		border-radius: 5rem;
+
+	}
+	
+	.middle{
+		position: absolute;
+		top:60%;
+		left:50%;
+		transform:translate(-50%, -50%);
+		
+	}
+	.middle .circle:nth-child(1){
+		background-image:url(espresso.png)
+	}
+	.product{
+		background-color: skyblue;
+	}
+	.navlist .product .content{
+		background-color:red;
+	}
